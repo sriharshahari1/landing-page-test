@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto',sans-serif;
+  margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31,41,55);
+    padding: 32px;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.body1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(31,41,55);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7Eb;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #3882F6;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+
+.placeholder {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.body2 .heading {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    gap:52px;
+    justify-content: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imgtext {
+    max-width: 150px;
+}
+
+.body3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 750px;
+}
+
+.by{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.body4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin:150px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+#text1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.body4 button {
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+    background-color: rgb(31,41,55);
+    color: white;
+    padding: 25px;
+}
